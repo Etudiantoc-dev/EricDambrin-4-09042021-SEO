@@ -9,7 +9,11 @@
     font-weight: normal;
     font-style: normal;
 }
+.color-1 {color: #a93226;}.color-2 {color: #c0392b;}.color-3 {color: #d4ac0d;}.color-4 {color: #b7950b;}.color-5 {color: #f7dc6f;}.color-6 {color: #f4d03f;}
 
+{
+    font-size: 17px;
+}
 body {
     margin: 0;
     padding: 0;
@@ -29,6 +33,7 @@ h1{
     font-size: 41px;
     margin-top: 0;
     margin-left: 20px;
+    
    
 }
 .navbar-brand{
@@ -159,6 +164,7 @@ a:hover {
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
+
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -700,9 +706,7 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
+
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -798,8 +802,9 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
-    color: #F3976C!important;
+.tc-white,H2 {
+    color: rgb(252,207,111)!important; /*test changement de couleur*/
+    text-align: center;
 }
 
 .btn-atomic-tangerine {
@@ -808,7 +813,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background:#764735 #c2795!important;
     color: #FFFFFF!important;
 }
 
