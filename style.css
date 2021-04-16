@@ -180,6 +180,7 @@ a:hover {
     color: rgba(255, 255, 255, 1);
 }
 
+
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
@@ -792,19 +793,24 @@ h4 {
     background-color: #FFFFFF;
 }
 
+
 .bgc-dark-slate-blue {
     background-color: #364577;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color:#F3976C;
     padding-bottom: 100px;
 }
 
 .tc-white,H2 {
-    color: rgb(252,207,111)!important; /*test changement de couleur*/
+    color: #ffb827!important; /*test changement de couleur*/
     text-align: center;
 }
+.bloc h2{
+    color: violet;
+}
+
 
 .btn-atomic-tangerine {
     background: #F3976C;

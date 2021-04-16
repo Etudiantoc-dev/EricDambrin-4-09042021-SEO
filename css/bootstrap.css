@@ -1659,7 +1659,7 @@ mark {
 
 .text-center {
     text-align: center;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .text-justify {
@@ -2088,6 +2088,7 @@ pre code {
 .col-xs-12 {
     width: 100%
 }
+
 
 .col-xs-11 {
     width: 91.66666667%
