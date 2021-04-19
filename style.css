@@ -10,6 +10,13 @@
     font-style: normal;
 }
 
+/* + rajout class*/
+.col-sm-12 h2{
+    color: #ffb827!important;
+}
+
+
+
 
 body {
     margin: 0;
@@ -727,7 +734,7 @@ a {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 800px;/*augmentation de 400px à 800px*/
     margin: auto auto auto auto;
 }
 
@@ -799,21 +806,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color:#F3976C;
+    background-color:#ffb82775;
     padding-bottom: 100px;
 }
 
 .tc-white,H2 {
-    color: #ffb827!important; /*test changement de couleur*/
+    color#ffb827!important; /*test changement de couleur*/
     text-align: center;
 }
-.bloc h2{
-    color: violet;
-}
+
+
 
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #ffb82775;
     color: #FFFFFF!important;
 }
 
