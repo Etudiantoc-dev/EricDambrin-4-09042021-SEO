@@ -2,8 +2,8 @@
     font-family: 'kingthings_petrockregular';
     src: url('Kingthings_Petrock-webfont.eot');
     src: url('Kingthings_Petrock-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Kingthings_Petrock-webfont.woff2') format('woff2'),
-         url('Kingthings_Petrock-webfont.woff') format('woff'),
+         /*url('Kingthings_Petrock-webfont.woff2') format('woff2'),
+         url('Kingthings_Petrock-webfont.woff') format('woff'),*/
          url('Kingthings_Petrock-webfont.ttf') format('ttf'),/*correction ('truetype'(en ('ttf')*/
          url('Kingthings_Petrock-webfont.svg#kingthings_petrockregular') format('svg');
     font-weight: normal;
@@ -13,7 +13,15 @@
 /* + rajout class*/
 .col-sm-12 h2{
     color: #ffb827!important;
+   
+}.mg-md h2{
+    background-color:bisque;
+    
 }
+
+
+
+
 
 
 
@@ -541,7 +549,7 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color:  #575757;
     box-shadow: none;
 }
 
@@ -688,7 +696,9 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+    
 }
+
 
 .container {
     max-width: 1000px;
@@ -736,6 +746,7 @@ a {
 .social {
     max-width: 800px;/*augmentation de 400px à 800px*/
     margin: auto auto auto auto;
+    margin-top: 50px;
 }
 
 h2 {
@@ -815,11 +826,14 @@ h4 {
     text-align: center;
 }
 
+#bloc-8{
+    background-color: #a58133;
+}
 
 
 
 .btn-atomic-tangerine {
-    background: #ffb82775;
+    background: #a58133;
     color: #FFFFFF!important;
 }
 
