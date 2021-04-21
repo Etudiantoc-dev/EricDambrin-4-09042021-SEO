@@ -32,7 +32,6 @@ button {
 h1{
     font-family: 'kingthings_petrockregular',cursive;/*police similaire trouvé*/
     font-size: 41px;
-    margin-top: 0;
     margin-left: 20px;
     
    
@@ -61,7 +60,6 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1091,8 +1089,18 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) and (min-width:510px ) {
+    
     .bloc-mob-center-text {
         text-align: center;
     }
+
+.social{
+    display: flex;
+    justify-content: space-around; /*Pour une présentation du footer à l'horizontal..*/
+    margin: 10px;
+    
+   
+}
+
 }
