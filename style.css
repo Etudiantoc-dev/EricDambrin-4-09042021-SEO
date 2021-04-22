@@ -738,7 +738,7 @@ a {
 }
 
 h2 {
-    font-size: 22p;/*retraît du font-size pour une plus grande taille..*/
+    
     line-height: 1.4em;
 }
 
@@ -811,7 +811,7 @@ h4 {
 }
 
 .tc-white,H2 {
-    color#ffb827!important; /*test changement de couleur*/
+    
     text-align: center;
 }
 
@@ -827,7 +827,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background:#764735 #c2795!important;
+    background:#764735!important;
     color: #FFFFFF!important;
 }
 
@@ -916,10 +916,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+  
     .bloc-group,
     .bloc-group .bloc {
         display: block;
