@@ -162,7 +162,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #FFFFFF;
 }
 
 
@@ -769,7 +769,8 @@ h4 {
 }
 
 .white {
-    color: #FFFFFFc4!important;
+    color: #FFFFFF!important;
+    font-size: x-large;
 }
 
 .portfolio-thumb {
@@ -821,8 +822,8 @@ h4 {
 
 
 .btn-atomic-tangerine {
-    background: #a58133;
-    color: #FFFFFFc4!important;
+    background: #8C6D2B;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
