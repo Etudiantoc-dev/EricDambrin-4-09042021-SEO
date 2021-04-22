@@ -3420,7 +3420,7 @@ textarea.input-lg {
     height: 34px;
     line-height: 34px;
     text-align: center;
-    pointer-events: none
+    
 }
 
 .form-group-lg .form-control+.form-control-feedback,
@@ -3713,10 +3713,7 @@ fieldset[disabled] .btn {
     opacity: .65
 }
 
-a.btn.disabled,
-fieldset[disabled] a.btn {
-    pointer-events: none
-}
+
 
 .btn-default {
     color: #333;
@@ -5126,7 +5123,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
