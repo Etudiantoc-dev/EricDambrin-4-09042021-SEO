@@ -344,7 +344,12 @@ a:hover {
 
 .nav-center .navbar-brand img {
     margin: 0;
+    
 }
+.img-responsive{
+    width: 100%;
+}
+
 
 .navbar .nav {
     padding-top: 2px;
@@ -1031,7 +1036,7 @@ h4 {
         padding: 40px 0;
     }
     .bloc-lg{ /* Ici pour stopper l'agrandissement des images*/
-        max-width: 337px;
+        max-width:100%;
         margin: auto;
     }
     .bloc-sm,
