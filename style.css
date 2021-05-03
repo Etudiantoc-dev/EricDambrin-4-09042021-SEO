@@ -12,7 +12,7 @@
 }
 /* @font-face kit by Fonts2u (https://fonts2u.com) */
 @font-face {
-  font-family: "Kingthings Petrock Light";
+  font-family: "Kingthings Petrock Light";/*police similaire trouvé pout la bannière*/
   src: url("./fonts/Kingthings_Petrock_light.eot") format("eot"),
     url("./fonts/Kingthings_Petrock_light.woff") format("woff"),
     url("./fonts/Kingthings_Petrock_light.ttf") format("truetype"),
@@ -41,7 +41,7 @@ button {
   outline: none !important;
 }
 h1 {
-  font-family: "Kingthings Petrock Light",cursive; /*police similaire trouvé*/
+  font-family: "Kingthings Petrock Light",cursive; 
   margin-left: 20px;
 }
 .navbar-brand {
